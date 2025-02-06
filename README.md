@@ -18,7 +18,7 @@ A simple Node.js webhook server for Dialogflow that handles various intents, inc
     - Copy the generated public URL (e.g., https://abcd1234.ngrok-free.app).
 4. Set up the webhook in Dialogflow:  
     - Go to the Fulfillment section in your Dialogflow console.
-    - Enable the webhook and set the URL to the ngrok URL you copied, followed by /webhook (e.g., https://abcd1234.ngrok-free.app /webhook).
+    - Enable the webhook and set the URL to the ngrok URL you copied, followed by /webhook (e.g., https://abcd1234.ngrok-free.app/webhook).
 5. Run the appliplication locally
     - Install dependencies: `npm install`
     - Run the application: `node index.js` from your directory
